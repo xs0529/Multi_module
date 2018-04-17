@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://120.77.253.65:3306/ssm_crud?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: uAiqwVwjJ8-i
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+server:
+  port: 8081
+dadrive-class-path: C:\Users\admin\.m2\repository\mysql\mysql-connector-java\5.1.46\mysql-connector-java-5.1.46.jar
