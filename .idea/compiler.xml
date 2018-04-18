@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-common" />
         <module name="springboot-dao" />
         <module name="springboot-jpa" />
         <module name="springboot-service1" />
@@ -16,9 +17,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="Multi_module" target="1.8" />
+      <module name="springboot-common" target="1.8" />
       <module name="springboot-dao" target="1.8" />
       <module name="springboot-jpa" target="1.8" />
-      <module name="springboot-parent" target="1.8" />
       <module name="springboot-service1" target="1.8" />
       <module name="springboot-service2" target="1.8" />
       <module name="springboot-test" target="1.8" />

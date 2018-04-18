@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Multi_module.iml" filepath="$PROJECT_DIR$/Multi_module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-common/springboot-common.iml" filepath="$PROJECT_DIR$/springboot-common/springboot-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-dao/springboot-dao.iml" filepath="$PROJECT_DIR$/springboot-dao/springboot-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" filepath="$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-service1/springboot-service1.iml" filepath="$PROJECT_DIR$/springboot-service1/springboot-service1.iml" />

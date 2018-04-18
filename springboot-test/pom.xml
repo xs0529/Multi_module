@@ -42,6 +42,10 @@
         <!--本地依赖-->
         <dependency>
             <groupId>com.xie</groupId>
+            <artifactId>springboot-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.xie</groupId>
             <artifactId>springboot-service2</artifactId>
         </dependency>
         <dependency>

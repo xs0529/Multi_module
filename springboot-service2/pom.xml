@@ -26,6 +26,10 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.xie</groupId>
+			<artifactId>springboot-common</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.xie</groupId>
 			<artifactId>springboot-jpa</artifactId>
 		</dependency>
 		<dependency>

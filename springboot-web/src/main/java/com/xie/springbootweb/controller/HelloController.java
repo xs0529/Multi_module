@@ -1,12 +1,10 @@
 package com.xie.springbootweb.controller;
 
-import com.xie.service.HelloService;
+import com.xie.service.admin.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.List;
 
 /**
  * @author 谢霜
@@ -27,7 +25,9 @@ public class HelloController {
     }
     @RequestMapping("/users")
     public String getUsers(){
-        return helloService.getUsers().toString()+"wuyu";
+        int a = 0;
+        int b = 2;
+        return a+b+"";
     }
     @RequestMapping("/user/{id}")
     public String getUserById(@PathVariable(value = "id")Byte id){

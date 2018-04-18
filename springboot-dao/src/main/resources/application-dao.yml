@@ -6,6 +6,3 @@ spring:
     password: uAiqwVwjJ8-i
 mybatis:
   mapper-locations: classpath:mapper/*.xml
-server:
-  port: 8081
-dadrive-class-path: C:\Users\admin\.m2\repository\mysql\mysql-connector-java\5.1.46\mysql-connector-java-5.1.46.jar

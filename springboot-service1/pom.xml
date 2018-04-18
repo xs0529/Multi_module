@@ -26,7 +26,21 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.xie</groupId>
+			<artifactId>springboot-common</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.xie</groupId>
 			<artifactId>springboot-dao</artifactId>
+		</dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-spring</artifactId>
+            <version>1.2.1</version>
+        </dependency>
+		<dependency>
+			<groupId>com.github.theborakompanioni</groupId>
+			<artifactId>thymeleaf-extras-shiro</artifactId>
+			<version>RELEASE</version>
 		</dependency>
 	</dependencies>
 </project>

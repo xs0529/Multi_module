@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xie.springbootdao.dao.RolePermissionPOMapper">
+  <resultMap id="BaseResultMap" type="com.xie.springbootdao.po.RolePermissionPO">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="rid" jdbcType="BIGINT" property="rid" />
+    <result column="pid" jdbcType="BIGINT" property="pid" />
+  </resultMap>
+</mapper>
